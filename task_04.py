@@ -22,5 +22,5 @@ def too_many_kittens(kittens, litterboxes, catfood=None):
         True
 
     """
-    ANSWER = (not (litterboxes >= kittens and catfood))
-    return ANSWER
+    answer = (not (litterboxes >= kittens and catfood))
+    return answer

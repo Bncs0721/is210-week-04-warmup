@@ -21,7 +21,7 @@ def defaults(my_required, my_optional=True):
         False
     
     """
-    MYOP = my_optional is my_required
-    return MYOP
+    myop = my_optional is my_required
+    return myop
 
-    print MYOP
+    print myop
